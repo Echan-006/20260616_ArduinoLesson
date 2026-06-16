@@ -1,6 +1,6 @@
 const byte A_PIN = A0;
 const byte LED = 3;  //PWMに対応しているのは3, 5, 6, 9, 10, 11
-int value;
+int value;  //光関係
 
 const int LIGHT_MIN = 850;  //明るさの下限、環境によって調整したほうがいい
 const int LIGHT_MAX = 900;  //明るさの上限、環境によって調整したほうがいい
